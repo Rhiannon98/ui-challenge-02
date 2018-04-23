@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+  <title>ui-challenge-02</title>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+</head>
+
+<body>
+  <header>UI Challenge - Custom Form Elements</header>
+  <p>The stylization of custom form elements is not for everyone.</p>
+  <div>
+    <label>
+      <p>text input</p>
+      <input type="text" id="form-box" placeholder="placeholder text">
+    </label>
+    <label>
+      <p>text input w/ validation error</p>
+      <input type="text" id="form-box" placeholder="placeholder text" required data-errormessage-value-missing="please enter a valid username">
+    </label>
+  </div>
+
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+
+  <div class="dropdown">
+    <span>select box</span>
+    <button onclick="myFunction()" class="dropbtn">
+      <img>
+    </button>
+    <div id="myDropdown" class="dropdown-content">
+      <button onclick="myFunction()" class="btndropped">
+        <img>
+      </button>
+      <a href="#">option 1</a>
+      <a href="http://www.spritecow.com/">option 2</a>
+      <a href="https://github.com/Rhiannon98?tab=repositories">option 3</a>
+      <a href="https://www.microsoft.com/en-us/">option 4</a>
+      <a href="https://www.youtube.com/watch?time_continue=19&v=q8v9MvManKE">option 5</a>
+    </div>
+  </div>
+</body>
+
+</html>
+
+</body>
